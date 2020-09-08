@@ -5,9 +5,8 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <h1>Gatsby Header</h1>
+    <p>This is a Gatsby default site + functions.</p>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )

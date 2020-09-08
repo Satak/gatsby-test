@@ -22,7 +22,8 @@
     "develop": "gatsby develop",
     "prod": "npm run build; npm run build:lambda",
     "start:lambda": "netlify-lambda serve functions",
-    "build:lambda": "netlify-lambda build functions"
+    "build:lambda": "netlify-lambda build functions",
+    "dev": "gatsby develop"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
