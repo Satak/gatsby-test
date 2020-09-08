@@ -13,5 +13,5 @@ Testing Gatsby with Functions, deployed to Netlify.
   - JSON payload:
 
 ```json
-{"name: "my name"}
+{ "name": "my name" }
 ```
