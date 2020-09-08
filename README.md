@@ -1,3 +1,17 @@
-# Netlify Lambda Hello World
+# Netlify Gatsby + Functions
 
-This repository contains a starter Gatsby application, generated using Gatsby CLI, along with a Hello World lambda function to be deployed to Netlify.
+Testing Gatsby with Functions, deployed to Netlify.
+
+## Site
+
+<https://satak-gatsby-test.netlify.app/>
+
+## Functions
+
+- <https://satak-gatsby-test.netlify.app/.netlify/functions/test>
+  - method: `POST`
+  - JSON payload:
+
+```json
+{"name: "my name"}
+```
